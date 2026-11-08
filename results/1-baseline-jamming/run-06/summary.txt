@@ -1,0 +1,56 @@
+Jamming started               t=67.0 s  at 20.0 m
+Max GPS-reported error       1,961.6 m
+Max EKF error                1,855.9 m  pre-jam 0.0 m
+GPS 3D fix while jammed            70%  of 299 GPS samples
+Time to failsafe                 7.9 s  mode → LAND
+RTL                            refused
+EKF error at end             1,855.9 m
+Landed from home                70.4 m  true position
+
+Events after jamming:
+  t+   4.4 s  EKF3 lane switch 1
+  t+   4.4 s  EKF3 primary changed:1
+  t+   4.6 s  EKF3 lane switch 0
+  t+   4.6 s  EKF3 primary changed:0
+  t+   6.0 s  GPS Glitch or Compass error
+  t+   7.9 s  EKF variance: over thresholds
+  t+   7.9 s  mode → LAND
+  t+   7.9 s  EKF Failsafe: changed to Land Mode
+  t+   7.9 s  Mode change to RTL failed: requires position
+  t+  11.1 s  EKF Failsafe Cleared
+  t+  13.7 s  EKF Failsafe
+  t+  14.4 s  EKF3 lane switch 1
+  t+  14.4 s  EKF3 primary changed:1
+  t+  15.0 s  EKF3 lane switch 0
+  t+  15.0 s  EKF3 primary changed:0
+  t+  17.6 s  EKF Failsafe Cleared
+  t+  19.7 s  EKF Failsafe
+  t+  21.8 s  EKF Failsafe Cleared
+  t+  23.5 s  EKF Failsafe
+  t+  24.6 s  EKF3 lane switch 1
+  t+  24.6 s  EKF3 primary changed:1
+  t+  25.0 s  EKF3 lane switch 0
+  t+  25.0 s  EKF3 primary changed:0
+  t+  26.0 s  Vibration compensation ON
+  t+  33.2 s  EKF Failsafe Cleared
+  t+  34.3 s  EKF Failsafe
+  t+  34.6 s  EKF3 lane switch 1
+  t+  34.6 s  EKF3 primary changed:1
+  t+  35.5 s  EKF Failsafe Cleared
+  t+  35.8 s  EKF3 lane switch 0
+  t+  35.8 s  EKF3 primary changed:0
+  t+  39.3 s  EKF variance: over thresholds
+  t+  39.3 s  EKF Failsafe
+  t+  40.3 s  EKF Failsafe Cleared
+  t+  42.0 s  SIM Hit ground at 0.526459 m/s
+  t+  44.6 s  EKF3 lane switch 1
+  t+  44.6 s  EKF3 primary changed:1
+  t+  45.3 s  EKF Failsafe
+  t+  46.2 s  EKF3 lane switch 0
+  t+  46.2 s  EKF3 primary changed:0
+  t+  47.5 s  EKF Failsafe Cleared
+  t+  48.7 s  EKF Failsafe
+  t+  55.0 s  EKF3 lane switch 1
+  t+  55.0 s  EKF3 primary changed:1
+  t+  56.2 s  EKF3 lane switch 0
+  t+  56.2 s  EKF3 primary changed:0

@@ -1,0 +1,41 @@
+Jamming started               t=62.0 s  at 20.0 m
+Max GPS-reported error       1,101.9 m
+Max EKF error                    2.0 m  pre-jam 0.0 m
+GPS 3D fix while jammed            66%  of 222 GPS samples
+Time to failsafe                 4.5 s  mode → LAND
+RTL                            refused
+EKF error at end                 1.6 m
+Landed from home                 4.7 m  true position
+
+Events after jamming:
+  t+   4.0 s  EKF3 lane switch 1
+  t+   4.0 s  EKF3 primary changed:1
+  t+   4.0 s  EKF3 lane switch 0
+  t+   4.0 s  EKF3 primary changed:0
+  t+   4.5 s  EKF variance: over thresholds
+  t+   4.5 s  mode → LAND
+  t+   4.5 s  EKF Failsafe: changed to Land Mode
+  t+   4.5 s  Mode change to RTL failed: requires position
+  t+   4.6 s  Vibration compensation ON
+  t+   6.6 s  Mode change to RTL failed: requires position
+  t+   8.6 s  Mode change to RTL failed: requires position
+  t+  10.6 s  Mode change to RTL failed: requires position
+  t+  12.7 s  Mode change to RTL failed: requires position
+  t+  14.7 s  Mode change to RTL failed: requires position
+  t+  16.7 s  Mode change to RTL failed: requires position
+  t+  18.7 s  Mode change to RTL failed: requires position
+  t+  19.8 s  SmartRTL deactivated: bad position
+  t+  20.8 s  Mode change to RTL failed: requires position
+  t+  22.9 s  Mode change to RTL failed: requires position
+  t+  25.0 s  Mode change to RTL failed: requires position
+  t+  27.1 s  Mode change to RTL failed: requires position
+  t+  29.1 s  Mode change to RTL failed: requires position
+  t+  31.1 s  Mode change to RTL failed: requires position
+  t+  33.1 s  Mode change to RTL failed: requires position
+  t+  35.2 s  Mode change to RTL failed: requires position
+  t+  36.9 s  SIM Hit ground at 0.497333 m/s
+  t+  37.2 s  Mode change to RTL failed: requires position
+  t+  39.3 s  Mode change to RTL failed: requires position
+  t+  41.3 s  Mode change to RTL failed: requires position
+  t+  43.3 s  Mode change to RTL failed: requires position
+  t+  44.2 s  Disarming motors

@@ -5,3 +5,5 @@ CLAUDE.md
 .claude
 software-factory/
 docs/
+.DS_Store
+__pycache__

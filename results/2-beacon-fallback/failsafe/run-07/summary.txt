@@ -1,0 +1,43 @@
+Jamming started               t=68.1 s  at 20.0 m
+Max GPS-reported error       1,116.4 m
+Max EKF error                    2.3 m  pre-jam 0.0 m
+GPS 3D fix while jammed            63%  of 232 GPS samples
+Time to failsafe                 6.4 s  mode → LAND
+RTL                            refused
+EKF error at end                 1.8 m
+Landed from home                 4.7 m  true position
+
+Events after jamming:
+  t+   3.5 s  EKF3 lane switch 1
+  t+   3.5 s  EKF3 primary changed:1
+  t+   3.5 s  EKF3 lane switch 0
+  t+   3.5 s  EKF3 primary changed:0
+  t+   4.5 s  GPS Glitch or Compass error
+  t+   6.4 s  EKF variance: over thresholds
+  t+   6.4 s  mode → LAND
+  t+   6.4 s  EKF Failsafe: changed to Land Mode
+  t+   6.4 s  Mode change to RTL failed: requires position
+  t+   6.5 s  Glitch cleared
+  t+   7.6 s  Vibration compensation ON
+  t+   8.5 s  Mode change to RTL failed: requires position
+  t+  10.5 s  Mode change to RTL failed: requires position
+  t+  12.5 s  Mode change to RTL failed: requires position
+  t+  14.6 s  Mode change to RTL failed: requires position
+  t+  16.6 s  Mode change to RTL failed: requires position
+  t+  18.7 s  Mode change to RTL failed: requires position
+  t+  20.7 s  Mode change to RTL failed: requires position
+  t+  21.7 s  SmartRTL deactivated: bad position
+  t+  22.7 s  Mode change to RTL failed: requires position
+  t+  24.8 s  Mode change to RTL failed: requires position
+  t+  26.8 s  Mode change to RTL failed: requires position
+  t+  28.9 s  Mode change to RTL failed: requires position
+  t+  30.9 s  Mode change to RTL failed: requires position
+  t+  32.9 s  Mode change to RTL failed: requires position
+  t+  35.0 s  Mode change to RTL failed: requires position
+  t+  37.0 s  Mode change to RTL failed: requires position
+  t+  38.8 s  SIM Hit ground at 0.501787 m/s
+  t+  39.1 s  Mode change to RTL failed: requires position
+  t+  41.1 s  Mode change to RTL failed: requires position
+  t+  43.1 s  Mode change to RTL failed: requires position
+  t+  45.1 s  Mode change to RTL failed: requires position
+  t+  46.2 s  Disarming motors

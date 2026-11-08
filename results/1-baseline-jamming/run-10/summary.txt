@@ -1,0 +1,48 @@
+Jamming started               t=71.0 s  at 20.0 m
+Max GPS-reported error       1,113.9 m
+Max EKF error                  172.5 m  pre-jam 0.0 m
+GPS 3D fix while jammed            66%  of 223 GPS samples
+Time to failsafe                 4.5 s  mode → LAND
+RTL                            refused
+EKF error at end               172.5 m
+Landed from home                 5.2 m  true position
+
+Events after jamming:
+  t+   3.6 s  EKF3 lane switch 1
+  t+   3.6 s  EKF3 primary changed:1
+  t+   3.6 s  EKF3 lane switch 0
+  t+   3.6 s  EKF3 primary changed:0
+  t+   4.5 s  EKF variance: over thresholds
+  t+   4.5 s  mode → LAND
+  t+   4.5 s  EKF Failsafe: changed to Land Mode
+  t+   4.5 s  Mode change to RTL failed: requires position
+  t+   4.6 s  GPS Glitch or Compass error
+  t+   6.4 s  EKF Failsafe Cleared
+  t+   8.5 s  EKF Failsafe
+  t+  11.1 s  EKF Failsafe Cleared
+  t+  13.3 s  EKF Failsafe
+  t+  13.8 s  EKF3 lane switch 1
+  t+  13.8 s  EKF3 primary changed:1
+  t+  13.8 s  EKF3 lane switch 0
+  t+  13.8 s  EKF3 primary changed:0
+  t+  15.1 s  EKF Failsafe Cleared
+  t+  24.4 s  EKF3 lane switch 1
+  t+  24.4 s  EKF3 primary changed:1
+  t+  24.8 s  EKF3 lane switch 0
+  t+  24.8 s  EKF3 primary changed:0
+  t+  25.3 s  EKF Failsafe
+  t+  27.5 s  EKF Failsafe Cleared
+  t+  28.9 s  EKF Failsafe
+  t+  30.7 s  EKF Failsafe Cleared
+  t+  33.7 s  EKF Failsafe
+  t+  33.9 s  Vibration compensation ON
+  t+  34.4 s  EKF3 lane switch 1
+  t+  34.4 s  EKF3 primary changed:1
+  t+  35.0 s  EKF3 lane switch 0
+  t+  35.0 s  EKF3 primary changed:0
+  t+  36.0 s  EKF Failsafe Cleared
+  t+  36.9 s  SIM Hit ground at 0.496642 m/s
+  t+  41.7 s  EKF variance: over thresholds
+  t+  41.7 s  EKF Failsafe
+  t+  43.7 s  EKF Failsafe Cleared
+  t+  44.3 s  Disarming motors

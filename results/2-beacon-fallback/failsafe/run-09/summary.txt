@@ -1,0 +1,43 @@
+Jamming started               t=70.0 s  at 20.0 m
+Max GPS-reported error       1,025.6 m
+Max EKF error                  103.0 m  pre-jam 0.0 m
+GPS 3D fix while jammed            67%  of 243 GPS samples
+Time to failsafe                13.1 s  mode → LAND
+RTL                            refused
+EKF error at end               103.0 m
+Landed from home                 4.8 m  true position
+
+Events after jamming:
+  t+   3.8 s  EKF3 lane switch 1
+  t+   3.8 s  EKF3 primary changed:1
+  t+   3.8 s  EKF3 lane switch 0
+  t+   3.8 s  EKF3 primary changed:0
+  t+   6.0 s  GPS Glitch or Compass error
+  t+   8.8 s  EKF3 lane switch 1
+  t+   8.8 s  EKF3 primary changed:1
+  t+  13.1 s  EKF variance: over thresholds
+  t+  13.1 s  mode → LAND
+  t+  13.1 s  EKF Failsafe: changed to Land Mode
+  t+  13.1 s  Mode change to RTL failed: requires position
+  t+  13.2 s  Glitch cleared
+  t+  15.2 s  Mode change to RTL failed: requires position
+  t+  17.2 s  Mode change to RTL failed: requires position
+  t+  19.3 s  Mode change to RTL failed: requires position
+  t+  21.3 s  Mode change to RTL failed: requires position
+  t+  23.3 s  Mode change to RTL failed: requires position
+  t+  25.3 s  Mode change to RTL failed: requires position
+  t+  27.4 s  Mode change to RTL failed: requires position
+  t+  28.1 s  SmartRTL deactivated: bad position
+  t+  29.4 s  Mode change to RTL failed: requires position
+  t+  31.5 s  Mode change to RTL failed: requires position
+  t+  33.6 s  Mode change to RTL failed: requires position
+  t+  35.7 s  Mode change to RTL failed: requires position
+  t+  37.7 s  Mode change to RTL failed: requires position
+  t+  39.7 s  Mode change to RTL failed: requires position
+  t+  41.8 s  Mode change to RTL failed: requires position
+  t+  43.8 s  Mode change to RTL failed: requires position
+  t+  45.8 s  Mode change to RTL failed: requires position
+  t+  46.3 s  SIM Hit ground at 0.541702 m/s
+  t+  47.9 s  Mode change to RTL failed: requires position
+  t+  48.5 s  Disarming motors
+  t+  48.6 s  EKF3 primary changed:0

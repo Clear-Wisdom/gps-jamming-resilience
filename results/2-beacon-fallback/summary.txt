@@ -1,0 +1,35 @@
+== onset
+10 flights: run-01, run-02, run-03, run-04, run-05, run-06, run-07, run-08, run-09, run-10
+
+                                 min      median         max
+Max GPS-reported error       426.8 m   1,110.2 m   1,967.6 m
+Max EKF error                  1.6 m       1.6 m       1.7 m
+Pre-jam max EKF error          0.0 m       0.0 m       0.0 m
+GPS 3D fix while jammed          61%         65%         69%
+Time to failsafe                   —           —           —
+EKF error at end               1.0 m       1.1 m       1.1 m
+Landed from home               1.1 m       1.1 m       1.1 m
+
+GPS error over 1 km         7 / 10
+EKF failsafe fired          0 / 10
+Failsafe switched to LAND   0 / 10
+RTL refused                 0 / 10
+RTL accepted and held      10 / 10
+
+== failsafe
+10 flights: run-01, run-02, run-03, run-04, run-05, run-06, run-07, run-08, run-09, run-10
+
+                                 min      median         max
+Max GPS-reported error       514.1 m   1,115.2 m   1,968.9 m
+Max EKF error                  1.1 m       2.2 m     103.0 m
+Pre-jam max EKF error          0.0 m       0.0 m       0.0 m
+GPS 3D fix while jammed          63%         65%         69%
+Time to failsafe               4.5 s       5.3 s      13.1 s
+EKF error at end               1.0 m       1.8 m     103.0 m
+Landed from home               1.7 m       4.7 m       5.6 m
+
+GPS error over 1 km         9 / 10
+EKF failsafe fired         10 / 10
+Failsafe switched to LAND  10 / 10
+RTL refused                 7 / 10
+RTL accepted and held       3 / 10

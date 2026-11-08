@@ -1,0 +1,15 @@
+# Experiment 2: radio beacons as a fallback position source.
+# SITL places 4 beacons in a 10 m x 20 m rectangle around BCN_LATITUDE/LONGITUDE
+# (the take-off point). Simulated beacons have no range limit or ranging noise.
+BCN_TYPE        10
+BCN_LATITUDE    37.6650
+BCN_LONGITUDE   125.6990
+BCN_ALT         0
+BCN_ORIENT_YAW  0
+
+# Source set 1 (default): GPS. Source set 2: beacon position, baro height, compass yaw.
+EK3_SRC2_POSXY  4
+EK3_SRC2_VELXY  0
+EK3_SRC2_POSZ   1
+EK3_SRC2_VELZ   0
+EK3_SRC2_YAW    1
