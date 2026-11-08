@@ -1,0 +1,41 @@
+Jamming started               t=71.1 s  at 20.0 m
+Max GPS-reported error       1,110.3 m
+Max EKF error                    1.9 m  pre-jam 0.0 m
+GPS 3D fix while jammed            66%  of 222 GPS samples
+Time to failsafe                 4.4 s  mode → LAND
+RTL                       accepted, then mode → LAND after 0.4 s
+EKF error at end                 1.5 m
+Landed from home                 5.2 m  true position
+
+Events after jamming:
+  t+   3.5 s  EKF3 lane switch 1
+  t+   3.5 s  EKF3 primary changed:1
+  t+   3.5 s  EKF3 lane switch 0
+  t+   3.5 s  EKF3 primary changed:0
+  t+   4.0 s  mode → RTL
+  t+   4.4 s  EKF variance: over thresholds
+  t+   4.4 s  mode → LAND
+  t+   4.4 s  EKF Failsafe: changed to Land Mode
+  t+   4.5 s  Vibration compensation ON
+  t+   6.1 s  Mode change to RTL failed: requires position
+  t+   8.2 s  Mode change to RTL failed: requires position
+  t+  10.2 s  Mode change to RTL failed: requires position
+  t+  12.2 s  Mode change to RTL failed: requires position
+  t+  14.3 s  Mode change to RTL failed: requires position
+  t+  16.3 s  Mode change to RTL failed: requires position
+  t+  18.4 s  Mode change to RTL failed: requires position
+  t+  19.7 s  SmartRTL deactivated: bad position
+  t+  20.5 s  Mode change to RTL failed: requires position
+  t+  22.5 s  Mode change to RTL failed: requires position
+  t+  24.5 s  Mode change to RTL failed: requires position
+  t+  26.5 s  Mode change to RTL failed: requires position
+  t+  28.6 s  Mode change to RTL failed: requires position
+  t+  30.6 s  Mode change to RTL failed: requires position
+  t+  32.6 s  Mode change to RTL failed: requires position
+  t+  34.6 s  Mode change to RTL failed: requires position
+  t+  36.6 s  Mode change to RTL failed: requires position
+  t+  36.8 s  SIM Hit ground at 0.499667 m/s
+  t+  38.7 s  Mode change to RTL failed: requires position
+  t+  40.8 s  Mode change to RTL failed: requires position
+  t+  42.8 s  Mode change to RTL failed: requires position
+  t+  44.2 s  Disarming motors

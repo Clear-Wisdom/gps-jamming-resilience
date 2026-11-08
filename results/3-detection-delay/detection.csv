@@ -1,0 +1,51 @@
+run,detector,delay_s,false_alarms
+run-01,GPS fix lost (Status < 3),0.17,0
+run-01,Satellites < 6,0.17,0
+run-01,Reported accuracy > 10 m,1.57,0
+run-01,GPS speed > 30 m/s,1.57,0
+run-01,EKF test ratio > 1 (SV or SP),3.61,0
+run-02,GPS fix lost (Status < 3),0.17,0
+run-02,Satellites < 6,0.17,0
+run-02,Reported accuracy > 10 m,1.57,0
+run-02,GPS speed > 30 m/s,1.57,0
+run-02,EKF test ratio > 1 (SV or SP),3.61,0
+run-03,GPS fix lost (Status < 3),0.17,0
+run-03,Satellites < 6,0.17,0
+run-03,Reported accuracy > 10 m,1.57,0
+run-03,GPS speed > 30 m/s,1.57,0
+run-03,EKF test ratio > 1 (SV or SP),4.41,0
+run-04,GPS fix lost (Status < 3),0.07,0
+run-04,Satellites < 6,0.07,0
+run-04,Reported accuracy > 10 m,1.47,0
+run-04,GPS speed > 30 m/s,1.47,0
+run-04,EKF test ratio > 1 (SV or SP),3.51,0
+run-05,GPS fix lost (Status < 3),0.07,0
+run-05,Satellites < 6,0.07,0
+run-05,Reported accuracy > 10 m,1.48,0
+run-05,GPS speed > 30 m/s,1.48,0
+run-05,EKF test ratio > 1 (SV or SP),4.31,0
+run-06,GPS fix lost (Status < 3),0.17,0
+run-06,Satellites < 6,0.17,0
+run-06,Reported accuracy > 10 m,1.57,0
+run-06,GPS speed > 30 m/s,1.57,0
+run-06,EKF test ratio > 1 (SV or SP),3.61,0
+run-07,GPS fix lost (Status < 3),0.17,0
+run-07,Satellites < 6,0.17,0
+run-07,Reported accuracy > 10 m,1.57,0
+run-07,GPS speed > 30 m/s,1.57,0
+run-07,EKF test ratio > 1 (SV or SP),3.61,0
+run-08,GPS fix lost (Status < 3),0.17,0
+run-08,Satellites < 6,0.17,0
+run-08,Reported accuracy > 10 m,1.57,0
+run-08,GPS speed > 30 m/s,1.57,0
+run-08,EKF test ratio > 1 (SV or SP),3.61,0
+run-09,GPS fix lost (Status < 3),0.17,0
+run-09,Satellites < 6,0.17,0
+run-09,Reported accuracy > 10 m,1.57,0
+run-09,GPS speed > 30 m/s,1.57,0
+run-09,EKF test ratio > 1 (SV or SP),3.61,0
+run-10,GPS fix lost (Status < 3),0.17,0
+run-10,Satellites < 6,0.17,0
+run-10,Reported accuracy > 10 m,1.57,0
+run-10,GPS speed > 30 m/s,1.57,0
+run-10,EKF test ratio > 1 (SV or SP),3.61,0

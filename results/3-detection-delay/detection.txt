@@ -1,0 +1,8 @@
+10 flights, 589 s with GPS lock before jamming
+
+Detector                         detected  delay min   median     max  false alarms
+GPS fix lost (Status < 3)          10 / 10       0.1s     0.2s    0.2s             0
+Satellites < 6                     10 / 10       0.1s     0.2s    0.2s             0
+Reported accuracy > 10 m           10 / 10       1.5s     1.6s    1.6s             0
+GPS speed > 30 m/s                 10 / 10       1.5s     1.6s    1.6s             0
+EKF test ratio > 1 (SV or SP)      10 / 10       3.5s     3.6s    4.4s             0

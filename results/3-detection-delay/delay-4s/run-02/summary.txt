@@ -1,0 +1,37 @@
+Jamming started               t=63.1 s  at 20.0 m
+Max GPS-reported error       1,114.5 m
+Max EKF error                    1.9 m  pre-jam 0.0 m
+GPS 3D fix while jammed            65%  of 223 GPS samples
+Time to failsafe                 4.4 s  mode → LAND
+RTL                       accepted, then mode → LAND after 0.4 s
+EKF error at end                 1.4 m
+Landed from home                 5.5 m  true position
+
+Events after jamming:
+  t+   4.0 s  mode → RTL
+  t+   4.4 s  EKF variance: over thresholds
+  t+   4.4 s  mode → LAND
+  t+   4.4 s  EKF Failsafe: changed to Land Mode
+  t+   4.5 s  Vibration compensation ON
+  t+   6.1 s  Mode change to RTL failed: requires position
+  t+   8.2 s  Mode change to RTL failed: requires position
+  t+  10.2 s  Mode change to RTL failed: requires position
+  t+  12.3 s  Mode change to RTL failed: requires position
+  t+  14.3 s  Mode change to RTL failed: requires position
+  t+  16.3 s  Mode change to RTL failed: requires position
+  t+  18.4 s  Mode change to RTL failed: requires position
+  t+  19.7 s  SmartRTL deactivated: bad position
+  t+  20.5 s  Mode change to RTL failed: requires position
+  t+  22.5 s  Mode change to RTL failed: requires position
+  t+  24.5 s  Mode change to RTL failed: requires position
+  t+  26.5 s  Mode change to RTL failed: requires position
+  t+  28.6 s  Mode change to RTL failed: requires position
+  t+  30.6 s  Mode change to RTL failed: requires position
+  t+  32.7 s  Mode change to RTL failed: requires position
+  t+  34.7 s  Mode change to RTL failed: requires position
+  t+  36.7 s  Mode change to RTL failed: requires position
+  t+  36.8 s  SIM Hit ground at 0.500779 m/s
+  t+  38.8 s  Mode change to RTL failed: requires position
+  t+  40.8 s  Mode change to RTL failed: requires position
+  t+  42.8 s  Mode change to RTL failed: requires position
+  t+  44.1 s  Disarming motors

@@ -1,0 +1,13 @@
+Jamming started               t=71.1 s  at 20.0 m
+Max GPS-reported error       1,108.7 m
+Max EKF error                    1.8 m  pre-jam 0.0 m
+GPS 3D fix while jammed            66%  of 197 GPS samples
+Time to failsafe                  none
+RTL                           accepted
+EKF error at end                 1.3 m
+Landed from home                 1.3 m  true position
+
+Events after jamming:
+  t+   1.0 s  mode → RTL
+  t+  37.3 s  SIM Hit ground at 0.500661 m/s
+  t+  39.4 s  Disarming motors

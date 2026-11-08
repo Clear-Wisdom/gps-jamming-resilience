@@ -5,11 +5,12 @@ Same flight as experiment 1, with beacons set up as EKF source set 2
 2 s until accepted. When to switch:
   onset     as soon as jamming starts (instant detection)
   failsafe  when the EKF failsafe fires (ArduPilot's own late detection)
+  <s>       s seconds after jamming starts, or at failsafe if that comes first
 
 SITL writes its flight log to logs/ in the current directory; summarize it
 with scripts/summarize.py.
 
-    ../ardupilot/.venv/bin/python scripts/2-beacon-fallback.py [hover_s] [onset|failsafe]
+    ../ardupilot/.venv/bin/python scripts/2-beacon-fallback.py [hover_s] [onset|failsafe|<s>]
 """
 import sys
 import time
@@ -25,8 +26,8 @@ BEACON_SOURCE_SET = 2
 RTL_RETRY_S = 2
 
 
-def recover(m, trigger):
-    """Switch to beacons at the trigger, then request RTL until accepted."""
+def recover(m, delay):
+    """Switch to beacons delay s after jamming or at failsafe, then request RTL until accepted."""
     start, mode = time.time(), m.flightmode
     switched = False
     last_rtl = None
@@ -40,7 +41,7 @@ def recover(m, trigger):
         if m.flightmode != mode:
             event(dt, f"mode {mode} → {m.flightmode}")
             mode = m.flightmode
-        if not switched and (trigger == "onset" or mode != "GUIDED"):
+        if not switched and (dt >= delay or mode != "GUIDED"):
             switched = True
             event(dt, "EKF source → beacons")
             m.mav.command_long_send(m.target_system, m.target_component,
@@ -57,8 +58,11 @@ def recover(m, trigger):
 if __name__ == "__main__":
     hover_s = float(sys.argv[1]) if len(sys.argv) > 1 else 10
     trigger = sys.argv[2] if len(sys.argv) > 2 else "failsafe"
-    if trigger not in ("onset", "failsafe"):
-        sys.exit("trigger must be onset or failsafe")
+    delays = {"onset": 0, "failsafe": float("inf")}
+    try:
+        delay = delays[trigger] if trigger in delays else float(trigger)
+    except ValueError:
+        sys.exit("trigger must be onset, failsafe or seconds after jamming")
     fly(f"Experiment 2 · Beacon fallback ({trigger})",
         f"take off to {HOVER_ALT_M} m, hover {hover_s:g} s, jam GPS, switch to beacons at {trigger}, RTL",
-        hover_s, lambda m: recover(m, trigger), extra_defaults=[PARAMS])
+        hover_s, lambda m: recover(m, delay), extra_defaults=[PARAMS])
